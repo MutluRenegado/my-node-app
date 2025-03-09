@@ -1,5 +1,18 @@
-my-node-app/
-├── .gitignore       # Tells git which files/folders to ignore
-├── package.json     # Contains metadata, dependencies, and scripts for your app
-├── index.js         # The main entry file for your Node.js application (where you set up your server)
-└── other project files  # Any other necessary files or folders for your app
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
