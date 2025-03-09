@@ -1,0 +1,5 @@
+root/
+├── .gitignore
+├── package.json
+├── index.js (or the main entry file)
+└── other project files
