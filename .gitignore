@@ -1,0 +1,20 @@
+# Ignore system directories
+/AppData/
+/Cookies/
+/Local Settings/
+/NetHood/
+/PrintHood/
+/Recent/
+/SendTo/
+/Start Menu/
+/Templates/
+
+# Ignore node_modules
+/node_modules/
+
+# Ignore OS-specific files
+*~   
+.DS_Store
+Thumbs.db
+
+# Add other directories you want to ignore
