@@ -24,9 +24,9 @@ app.get("/oauth/redirect", async (req, res) => {
         return res.status(400).send("Missing authorization code");
     }
 
-    const clientId = "YOUR_CLIENT_ID";
-    const clientSecret = "YOUR_CLIENT_SECRET";
-    const redirectUri = "https://intelligent-creativity.railway.app/oauth/redirect"; // Update with your deployed URL
+    const clientId = process.env.CLIENT_ID; // Get client ID from environment variables
+    const clientSecret = process.env.CLIENT_SECRET; // Get client secret from environment variables
+    const redirectUri = "https://intelligent-creativity.up.railway.app/oauth/redirect"; // Your deployed URL
 
     try {
         const response = await axios.post("https://www.wix.com/oauth/access", {
