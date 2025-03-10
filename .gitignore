@@ -20,4 +20,6 @@ Thumbs.db
 # Ignore environment variables file if you're using .env
 .env
 
-# Add other directories you want to ignore
+# Ignore specific configuration files
+/railway.toml
+/Dockerfile
