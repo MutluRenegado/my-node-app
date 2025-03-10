@@ -19,7 +19,3 @@ Thumbs.db
 
 # Ignore environment variables file if you're using .env
 .env
-
-# Ignore specific configuration files
-/railway.toml
-/Dockerfile
