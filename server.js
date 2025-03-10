@@ -47,3 +47,18 @@ app.get("/oauth/redirect", async (req, res) => {
 
 // Start the server
 app.listen(3000, () => console.log("Server running on port 3000"));
+
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1"
+  }
+}
